@@ -1,0 +1,44 @@
+.hero {
+  height: calc(100vh - 110px);
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  width: 45%;
+  line-height: 1.2;
+
+
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: darkgreen;
+  letter-spacing: 5px;
+}
+
+.hero-content p {
+  width: 85%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #000;
+  text-wrap: wrap;
+  line-height: 1.5;
+}
+
+.hero-content button{
+  background-color: darkgreen;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-size: 1rem;
+}

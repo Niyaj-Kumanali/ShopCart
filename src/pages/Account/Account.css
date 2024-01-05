@@ -1,0 +1,22 @@
+#Account{
+    margin: 0 auto;
+    width: 50%;
+    height: 100vh;
+}
+
+#Account h1{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px dashed #999;
+}
+
+#Account p{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Account p span{
+    width: 40%;
+    font-weight: 600;
+}

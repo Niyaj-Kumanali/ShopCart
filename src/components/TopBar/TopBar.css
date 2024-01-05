@@ -1,0 +1,50 @@
+#top-bar {
+  background-color: darkgreen;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0 1.25rem;
+}
+
+.top-items a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-items a i {
+  font-size: 1.2rem;
+}
+
+.top-items {
+  font-size: 1rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+.top-items p {
+  padding: 0 10px;
+}
+
+.top-items p:first-child {
+  border-right: 1px solid #fff;
+}
+
+.top-items select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.top-items select option {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #000;
+}

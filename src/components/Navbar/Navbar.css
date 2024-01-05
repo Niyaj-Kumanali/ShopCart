@@ -1,0 +1,145 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 23456789;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  background-color: #f4f4f4;
+  height: 70px;
+  box-shadow: 0px 0px 5px #333;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.nav-link a {
+  color: #000;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #999;
+  text-shadow: 0px 0px 1px #999;
+}
+
+.nav-logo h2 {
+  font-family: cursive;
+  font-weight: 900;
+  font-size: 1.7rem;
+  text-decoration: double;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  100% {
+    text-shadow: 1px 1px 4px darkgreen;
+    color: darkgreen;
+  }
+
+  50% {
+    text-shadow: 1px 1px 4px #999;
+    color: #999;
+  }
+
+  0% {
+    text-shadow: 1px 1px 4px black;
+    color: black;
+  }
+}
+
+.nav-items select {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100px;
+  font-size: 1rem;
+}
+
+.nav-items select option {
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+}
+
+.nav-items i {
+  font-size: 1.2rem;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  border: none;
+  width: 30vw;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #eee;
+  outline: none;
+}
+
+.search-bar input:focus {
+  box-shadow: 0px 0px 2px #999;
+}
+
+.search-bar button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  color: darkgreen;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  border: 1px solid #fff;
+  min-height: 15px;
+  min-width: 15px;
+  height: auto;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.5rem;
+}
+
+.searchTerms{
+  position: absolute;
+  top: 40px;
+  width: 100%;
+}
+
+
+.searchTerm {
+  background-color: #eee;
+  width: 100%;
+  padding: 5px 10%;
+}
+
+.searchTerm:hover{
+  background-color: #f4f4f4;
+}

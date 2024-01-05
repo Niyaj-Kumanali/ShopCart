@@ -1,0 +1,28 @@
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 3rem 0 2rem;
+}
+
+.bottom-left-part,
+.bottom-right-part,
+.bottom-middle-part {
+  display: flex;
+  gap: 20px;
+}
+
+.bottom-item, .bottom-item a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+
+
+.bottom-item i {
+  font-size: 1.5rem;
+  color: rgb(250, 113, 136);
+}
